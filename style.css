@@ -167,7 +167,14 @@
     span.hamburger.hamburgerActive span:after {
         margin-top: 0px;
         -webkit-transform: rotate(-45deg);
-    }   
+    } 
+    .blues{
+        color:#3498db; 
+    }
+    .str{
+        font-weight: 700;
+    
+    }  
     .main{
         position: relative;
         top: -75px;
@@ -288,8 +295,9 @@
     position: relative;
     padding-top: 120px;
     padding-bottom: 220px;
-    background: #e0e0e0;
+    background: #34495e;
     font-family: 'Muli',verdana;
+    color: #e0e0e0;
 }
 .ace h1{
     font-size: 5rem;
@@ -320,7 +328,8 @@
         margin: 10px;
      padding-top: 30px;
      padding-bottom: 30px;
-        background: #e0e0e0;
+        background: #34495e;
+        color: #e0e0e0;
         position: relative;
         transition: .3s;
       margin-top: 15px;
@@ -385,7 +394,7 @@
         font-family: 'Ubuntu',verdana;
         font-size: 2.2rem;
         font-weight: 400;
-        color:#34495e;
+        
         cursor: pointer;
         
       
@@ -473,7 +482,8 @@ button:active{
     position: relative;
     padding-top: 50px;
     padding-bottom: 100px;
-    background: #e0e0e0;
+    background: #34495e;
+    color: #e0e0e0;
    
 }
 
@@ -490,7 +500,7 @@ button:active{
     color: #000;
     width: 300px;
     transition: .3s;
-    background: #81CFE0;
+    background: #e0e0e0;
     cursor: pointer;
     font-family: 'Muli',verdana;
     }
