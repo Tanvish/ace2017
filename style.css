@@ -179,7 +179,7 @@
         background-attachment: fixed;
         background-repeat: no-repeat;
         z-index: 1;
-        font-family: 'Roboto',verdana;
+        font-family: 'Muli',verdana;
         font-weight: 100;
         color: white;
         font-size: 4rem;
@@ -244,7 +244,7 @@
     padding-top: 120px;
     padding-bottom: 160px;
     display: flex;
-    font-family: "Roboto",verdana;
+    font-family: "Muli",verdana;
     font-size: 1.6rem;
     align-items: center;
     justify-content: center;
@@ -289,52 +289,55 @@
     padding-top: 120px;
     padding-bottom: 220px;
     background: #e0e0e0;
-    font-family: 'Roboto',verdana;
+    font-family: 'Muli',verdana;
 }
 .ace h1{
     font-size: 5rem;
     padding: 30px;
     padding-bottom: 60px;
-    font-weight: 200;
+    
 }
 .ace p{
     width: 90%;
-    font-family: 'Raleway',verdana;
-    font-size: 1.6rem;
-    padding: 30px;
+    font-family: 'Muli',verdana;
+    font-size: 1.7rem;
+   
+    
 }
  .events{
         background: #fff;
         padding-top: 40px;
         padding-bottom: 50px;
-        font-family: 'Roboto',verdana;
-        font-weight: 300;
+        font-family: 'Muli',verdana;
+        
       }
       .events h1{
         font-size: 5rem;
-        font-weight: 100;
-        padding-bottom: 20px;
+                padding-bottom: 20px;
       }
       .card-holder{
-        box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-        width: 280px;
-        margin: 50px;
-     padding-top: 60px;
-     padding-bottom: 60px;
-        background: #fff;
+       width: 280px;
+        margin: 10px;
+     padding-top: 30px;
+     padding-bottom: 30px;
+        background: #e0e0e0;
         position: relative;
         transition: .3s;
+      margin-top: 15px;
+      margin-bottom: 15px;
         display: inline-block;
       }
       .card-holder:hover{
-       transform: translateY(-40px);
+         box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+        
+       transform: translateY(-20px);
        }
       .card-holder:after{
         position: absolute;
         content: "";
-        height: 100%;
-        width: 10px;
-      
+        height: 5px;
+        width: 100%;
+        
         border-top-left-radius: 0px;
         border-top-right-radius: 0px;
         border-bottom-right-radius: 0px;
@@ -343,22 +346,20 @@
         
         right: 0;
         background: #f39c12;
-        opacity: 1;
+        opacity: 0;
         font-size: 20rem;
         transition: .3s;
       }
      .card-holder:before{
          position: absolute;
         content: "";
-        height: 100%;
-        width: 10px;
+        height: 5px;
+        width: 100%;
        
-        border-top-left-radius: 0px;
-        border-top-right-radius: 0px;
-        border-bottom-right-radius: 0px;
-        border-bottom-left-radius: 0px;
-        top:0;
-        left: 0px;
+        
+        border-radius: 20px;
+        top:100%;
+        left: 0;
         background: #f39c12;
         opacity: 1;
         
@@ -366,10 +367,12 @@
 
          }
          .card-holder:hover:before{
-            transform: translateY(40px);
+            transform: translateY(20px);
+            background: #d35400;
          }
          .card-holder:hover:after{
-            transform: translateY(40px);
+            transform: translateY(20px);
+            background: #d35400
          }
       .card-holder img{
         height: 150px;
@@ -403,15 +406,21 @@
       .close:after{
         position: absolute;
         content: "x";
-        background: #e0e0e0;
+        background: transparent;
         font-family: 'Architects Daughter',verdana;
         font-size: 4rem;
 
-        top: 10px;
+        top: -15px;
 
-        right: 10px;
+        right: -15px;
 
-      }
+}
+.close:focus{
+    outline: none;
+}
+button:active{
+    outline: none;
+}
       .modal{
        
         margin-top:-40px ;
@@ -420,16 +429,16 @@
         position: relative;
         
         width: 90%;
-       padding-top: 20px;
+       padding: 20px;
        
        font-size: 3rem;
-       font-family: 'Roboto',verdana;
+       font-family: 'Muli',verdana;
        font-weight: 300;
 
       }
       .modal-content{
         position: relative;
-        top: -10px;
+        top: 10px;
         z-index: 1;
       }
       
@@ -443,13 +452,13 @@
         font-weight: 100;
       }
       .modal-dialog h3{
-        font-family: 'Roboto',verdana;
+        font-family: 'Muli',verdana;
         font-size: 1.6rem;
         font-weight: 600;
         
       }
       .modal-dialog p{
-        font-family: 'Roboto',verdana;
+        font-family: 'Muli',verdana;
         font-weight: 500;
         font-size: 1.6rem;
       }
@@ -469,8 +478,8 @@
 }
 
 .team h1{
-    font-family: "Roboto",verdana;
-    font-weight: 100;
+    font-family: "Muli",verdana;
+   
     font-size: 5rem;
     padding-top: 70px;
     padding-bottom: 70px;
@@ -483,6 +492,7 @@
     transition: .3s;
     background: #81CFE0;
     cursor: pointer;
+    font-family: 'Muli',verdana;
     }
 .pellet h3{
     font-size: 19px;
@@ -504,52 +514,34 @@
     top: -40px;
     margin-top: -30px;
 }
-@media all and (max-width:600px) {
-    .main{
-        padding-top: 100px;
-        padding-bottom: 100px;
-    }
-    .main:after{
-        opacity: 0.6;
-    }
-    .main h3{
-        width: 80%;
-    }
-    .about {
-        flex-direction: column
-    }
-   
-    .about-img{
-        padding: 0px;
-    }
-     .modal-dialog{
-       
-        width: 95%;
-      
-      }
-      .pellet{
-        width: 250px;
-      }
-}
+
 .contact{
-    padding-top: 200px;
+    padding-top: 150px;
     padding-bottom: 100px;
     background: #fff;
+}
+.typed{
+    padding: 30px;
+    padding-bottom: 130px;
+    font-size: 5rem;
+    width: 50%;
+    font-family: 'Ubuntu',verdana;
 }
 .contax{
     display: inline-block;
     width: 220px;
-    border-radius: 50%;
+    padding-top: 70px;
     margin: 30px;
-    font-family: 'Roboto',verdana;
+    font-family: 'Muli',verdana;
     font-weight: 300;
     font-size: 1.6rem;
     transition: .3s;
     cursor: pointer;
 }
 .contax img{
-    border-radius: 50%;
-    padding: 0px;
+ 
+    height: 160px;
+    width: 160px;
 }
 .contax a{
     text-decoration: none;
@@ -575,4 +567,38 @@
     padding-top: 50px;
     padding-bottom: 50px;
     background: #34495e;
+}
+@media all and (max-width:600px) {
+    .main{
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .main:after{
+        opacity: 0.4;
+    }
+    .main h3{
+        width: 80%;
+    }
+    .about {
+        flex-direction: column
+    }
+   
+    .about-img{
+        padding: 0px;
+    }
+     .modal-dialog{
+       
+        width: 95%;
+      
+      }
+      .pellet{
+        width: 250px;
+      }
+      .typed{
+        font-size: 4rem;
+      }
+      .card-holder{
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
 }
