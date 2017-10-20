@@ -4,7 +4,7 @@
     left: 0;
     z-index: 5;
     width: 100%;
-    background: #34495e;
+    background: #3498db;
    
     font-family: 'Poiret One',verdana;
     font-weight: 300;
@@ -181,7 +181,7 @@
         padding-top: 200px;
         padding-bottom: 300px;
         background-image: url(main.jpg);
-        background-size: contain;
+        background-size: cover;
         background-position: center;
         background-attachment: fixed;
         background-repeat: no-repeat;
@@ -216,7 +216,7 @@
     padding-bottom: 10px;
 }
 .main a{
-    font-family: 'Architects Daughter',verdana;
+    font-family: 'Roboto',verdana;
     font-size: 1.6rem;
         
     text-decoration: none;
@@ -224,7 +224,7 @@
     border: 1px solid #3498db;
     
     padding: 11px;
-    font-weight: 600;
+    font-weight: 400;
 }
 .left-btn{
     background: #3498db;
@@ -295,7 +295,7 @@
     position: relative;
     padding-top: 120px;
     padding-bottom: 220px;
-    background: #34495e;
+    background: #3498db;
     font-family: 'Muli',verdana;
     color: #e0e0e0;
 }
@@ -328,7 +328,7 @@
         margin: 10px;
      padding-top: 30px;
      padding-bottom: 30px;
-        background: #34495e;
+        background: #3498db;
         color: #e0e0e0;
         position: relative;
         transition: .3s;
@@ -482,7 +482,7 @@ button:active{
     position: relative;
     padding-top: 50px;
     padding-bottom: 100px;
-    background: #34495e;
+    background: #3498db;
     color: #e0e0e0;
    
 }
@@ -576,7 +576,7 @@ button:active{
     font-size: 2.3rem;
     padding-top: 50px;
     padding-bottom: 50px;
-    background: #34495e;
+    background: #3498db;
 }
 @media all and (max-width:600px) {
     .main{
@@ -584,7 +584,7 @@ button:active{
         padding-bottom: 100px;
     }
     .main:after{
-        opacity: 0.4;
+        opacity: 0.6;
     }
     .main h3{
         width: 80%;
